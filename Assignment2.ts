@@ -5,15 +5,21 @@
  * @fileoverview Convert cents to dollars.
  */
 
-let totalCentsString: string;
-let totalCentsNumber: number;
+
+
 
 // input
-totalCentsString = prompt("Input the cents please: ") || "\n";
+// asks for total cents and makes it a string
+const totalCentsString: string = prompt("Input the cents please: ") || "\n";
 
 // process
-totalCentsNumber = parseInt(totalCentsString);
+// convers string to number
+const totalCentsNumber: number = parseInt(totalCentsString);
+
+// converts cents to dollars
 const dollars: number = totalCentsNumber / 100;
+
+// calculate remaining cents
 const cents: number = totalCentsNumber % 100;
 
 // output
