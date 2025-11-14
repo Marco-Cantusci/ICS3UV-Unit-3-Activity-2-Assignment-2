@@ -38,4 +38,5 @@ func main() {
 	// print final results
 	fmt.Printf("That is %d dollars and %d cents\n", dollars, cents)
 
+	fmt.Println("\nDone.")
 }
