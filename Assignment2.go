@@ -8,11 +8,11 @@
 package main
 
 import (
-"fmt"
-"bufio"
-"os"
-"strconv"
-"strings"
+	"fmt"
+	"bufio"
+	"os"
+	"strconv"
+	"strings"
 )
 
 func main() {
